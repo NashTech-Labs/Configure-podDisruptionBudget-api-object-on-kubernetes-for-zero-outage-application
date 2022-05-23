@@ -15,3 +15,5 @@ So we have here our yml file with minAvailable equals 2. Which will make sure ou
 ```
 kubectl apply -f pdb.yml
 ```
+
+So in this way you can protect our application from getting unavailable by setting a threshold limit. And ensure that a certain number of pods are available every time. Continuously providing service to a functioning application in the face of disruption.
